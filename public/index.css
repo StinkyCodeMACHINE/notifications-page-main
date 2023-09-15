@@ -24,9 +24,8 @@
   background-color: var(--very-light-grayish-blue);
   display: grid;
   place-items: center;
-  /* height: 100vh; */
   min-height: 100vh;
-  max-height: fit-content;
+  padding: 2rem 0;
 }
 
 .notifications-container {
