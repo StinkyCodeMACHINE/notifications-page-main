@@ -38,7 +38,7 @@ function Notification({
       }`}
     >
       <div className="notification-main-part">
-        <img className="notification-profile-pic" src={profilePic} />
+        <img className="notification-profile-pic" src={profilePic} alt="someone's face" />
         <div className="notification-message-container">
           <div className="notification-message">
             <div>
@@ -63,7 +63,7 @@ function Notification({
               <div className="notification-private-message">{attachment}</div>
             )}
           </div>
-          {type === "picCom" && <img className="notification-attached-pic" src={attachment} />}
+          {type === "picCom" && <img className="notification-attached-pic" src={attachment} alt="an attached image of some sort" />}
         </div>
       </div>
     </div>
